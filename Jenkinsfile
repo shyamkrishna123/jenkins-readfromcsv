@@ -21,11 +21,6 @@ pipeline {
                                     println item
                                     println ' you are parsing line : ' + count
                                 }
-                                nodes["line${count}"] = {
-                                    node {
-                                        echo fields[0] + ': ' + fields[1] + ': ' + fields[2] + ': ' + fields[3] + ': ' + fields[4];
-                                    }
-                                }
                     }
                     } else {
                         echo ' Machines.csv Not found. Failing.'
