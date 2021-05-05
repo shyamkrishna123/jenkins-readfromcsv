@@ -11,7 +11,7 @@ pipeline {
                 script {
                     for(String webapp:webapps) {
                         stage("Running tests on ${webapp}") {   
-                            dir ('FolderWhereCSVIsClonedFromGit') {
+                            dir ('.') {
                             if (fileExists('MyCSV.csv')) {
                                 echo ' MyCSV.csv found'
 
