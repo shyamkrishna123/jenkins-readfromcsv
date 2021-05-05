@@ -5,7 +5,6 @@ pipeline {
         stage("Smoke Test") {
             steps {
                 script {
-                        stage("Running tests on") {  
                            sh """
                                 file='MyCSV.csv'
                                 success=$(head -1 $file | tr ',' '\n' | nl |grep -w "success" | tr -d " " | awk -F " " '{print $1}')
@@ -23,7 +22,6 @@ pipeline {
                                 fi
                                 done < <(cut -d "," -f${success},${url},${responseCode},${responseMessage},${failureMessage} $file | tail -n +2)
                            """
-                        }
                     } 
                 }
             }  
