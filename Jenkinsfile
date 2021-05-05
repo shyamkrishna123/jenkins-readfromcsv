@@ -9,9 +9,6 @@ pipeline {
                            sh(script: 'pip install -r requirements.txt') 
                             def respose = sh(script: 'python get_version_numbers.py', returnStdout: true)
                             echo response
-                                }
-
-                        }  
                         }
                     } 
                 }
