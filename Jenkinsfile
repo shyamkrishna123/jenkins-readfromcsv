@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'alpine'
-                 }
-    }
+    agent any
 
     stages {
         stage("Smoke Test") {
