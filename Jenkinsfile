@@ -20,7 +20,7 @@ pipeline {
                                 then
                                     echo \$rec1 \$rec2 \$rec3 \$rec4 \$rec5
                                 fi
-                                done < <(cut -d "," -f\${success},${url},\${responseCode},\${responseMessage},\${failureMessage} $file | tail -n +2)
+                                done < <(cut -d "," -f\${success},\${url},\${responseCode},\${responseMessage},\${failureMessage} \$file | tail -n +2)
                     } 
                 }
             }  
