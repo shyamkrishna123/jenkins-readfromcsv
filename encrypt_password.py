@@ -51,9 +51,10 @@ class EncryptPassword:
                 self.encrypted_password = b64encode(cipher.encrypt(self.password.encode('utf-8')))
                 self.encrypted_password = self.encrypted_password.decode('UTF-8')
                 status = self.check_password()
+                print(self.encrypted_password)
                 if status:
-                    print(self.encrypted_password)
-                    return(self.encrypted_password)
+                  print(self.encrypted_password)
+                  return(self.encrypted_password)
             else:
               print(self.password)
               return(self.password)
