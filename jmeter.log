@@ -1,0 +1,77 @@
+2021-05-06 21:40:24,859 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-05-06 21:40:24,886 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/user.properties
+2021-05-06 21:40:24,887 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/system.properties
+2021-05-06 21:40:24,888 INFO o.a.j.JMeter: Setting JMeter property: host=webapp-demo.chematica.net
+2021-05-06 21:40:24,888 INFO o.a.j.JMeter: Setting JMeter property: username=admin
+2021-05-06 21:40:24,888 INFO o.a.j.JMeter: Setting JMeter property: password=GdHd5iUKWggnbZJ/ck8O7XAwu2VTHkGVvepHwQTYkIrzLmHHkP+lZljfWirKREWt2brR8YoLQyIGQRt5I9HvPioKgEqvdyRvyOsRKsSprHsAjan8Trs95axJfatKHSmKRZ7er8WtuSfClUGNvhPcoNWlolXSsq/IKFbQ/vbzzMPOyF8bMxJ3kCXKoyUvwonOSUnMZsXTRjdycO6hg5/CWqUgAptMgEBXz5hGD1/fvo8MLxabN1Foj+MHnASesElu1WuxW+V9DjLubmaN7qHq32/RflwpKnAbaJJDKntZYCo1BXfSQkZyNqjswHWITzniJEtmbUZc4Qg1S97jOgRLUYyf++KBC5z520IPg4V9BSzkgqnyNB2w/p9pd/2iXyteHEQWmvelawIAotAG5Va7yvTZP/4khe8xrvecv+uFvkIkx+HsmQdeCRInm/UHVHB/EsNUmE7nVpgCL495gk2rEGiBpaxzmi57eYbB4ycJ3nbmJyese6vBggMiT1TCcAsCrBotTdGRg7f67P1Wx68Trj40WHvwa53/OuA7rAzgjr9f6eiIfdHPTJbFOaujlKEZhouvdZyE+2WCyOjIGpv0mJUGGeo1WiR1QuXlSCb/WT2e626hDi55dCg83ZKodC9AHyviFQnWsz6+gMEK/9V/oWTlX0ZWHnYRHjwge6EvBMs=
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: Version 5.4.1
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: java.version=15.0.2
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: os.arch=x86_64
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: os.version=11.3
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-05-06 21:40:24,895 INFO o.a.j.JMeter: java.awt.headless=true
+2021-05-06 21:40:24,896 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-05-06 21:40:24,896 INFO o.a.j.JMeter: Available Processors =8
+2021-05-06 21:40:24,904 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-05-06 21:40:24,905 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-05-06 21:40:24,905 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.1/libexec
+2021-05-06 21:40:24,905 INFO o.a.j.JMeter: user.dir  =/Users/x223352/Documents/merck/code-repos/synthia-jenkins-jobs/smoke-test
+2021-05-06 21:40:24,905 INFO o.a.j.JMeter: PWD       =/Users/x223352/Documents/merck/code-repos/synthia-jenkins-jobs/smoke-test
+2021-05-06 21:40:24,906 INFO o.a.j.JMeter: IP: 192.168.1.7 Name: MRKMLT-71CML413 FullName: 192.168.1.7
+2021-05-06 21:40:24,912 INFO o.a.j.s.FileServer: Default base='/Users/x223352/Documents/merck/code-repos/synthia-jenkins-jobs/smoke-test'
+2021-05-06 21:40:24,912 INFO o.a.j.s.FileServer: Set new base='/Users/x223352/Documents/merck/code-repos/synthia-jenkins-jobs/smoke-test'
+2021-05-06 21:40:25,061 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-05-06 21:40:25,086 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-05-06 21:40:25,089 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-05-06 21:40:25,091 INFO o.a.j.s.SaveService: Loading file: test-case.jmx
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-05-06 21:40:25,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-05-06 21:40:25,218 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-05-06 21:40:25,222 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-05-06 21:40:25,222 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-06 21:40:25,222 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-06 21:40:25,226 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-05-06 21:40:25,226 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-05-06 21:40:25,326 INFO o.a.j.JMeter: Running test (1620317425326)
+2021-05-06 21:40:25,341 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Login user
+2021-05-06 21:40:25,341 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login user.
+2021-05-06 21:40:25,341 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2021-05-06 21:40:25,341 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=0 delayedStart=false
+2021-05-06 21:40:25,348 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-05-06 21:40:25,349 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login user to finish before starting next group
+2021-05-06 21:40:25,350 INFO o.a.j.t.JMeterThread: Thread started: Login user 1-1
+2021-05-06 21:40:25,387 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = MRKMLT-71CML413
+2021-05-06 21:40:25,396 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-05-06 21:40:25,397 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-05-06 21:40:25,397 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-05-06 21:40:25,397 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-05-06 21:40:25,397 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-05-06 21:40:25,591 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-05-06 21:40:25,606 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-05-06 21:40:25,606 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-05-06 21:40:25,796 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-05-06 21:40:25,799 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-05-06 21:40:25,800 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-05-06 21:40:28,047 INFO o.a.j.t.JMeterThread: Thread is done: Login user 1-1
+2021-05-06 21:40:28,047 INFO o.a.j.t.JMeterThread: Thread finished: Login user 1-1
+2021-05-06 21:40:28,047 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Create and Verify Autoretro-Pimasertib
+2021-05-06 21:40:28,048 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create and Verify Autoretro-Pimasertib.
+2021-05-06 21:40:28,048 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-05-06 21:40:28,048 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=0 delayedStart=false
+2021-05-06 21:40:28,052 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2021-05-06 21:40:28,052 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-05-06 21:40:28,053 INFO o.a.j.t.JMeterThread: Thread started: Create and Verify Autoretro-Pimasertib 2-1
+2021-05-06 21:40:31,305 INFO o.a.j.r.Summariser: summary +      3 in 00:00:06 =    0.5/s Avg:  1231 Min:   448 Max:  2543 Err:     2 (66.67%) Active: 1 Started: 2 Finished: 1
+2021-05-06 21:41:00,757 INFO o.a.j.r.Summariser: summary +     12 in 00:00:29 =    0.4/s Avg:   441 Min:   413 Max:   498 Err:    12 (100.00%) Active: 1 Started: 2 Finished: 1
+2021-05-06 21:41:00,757 INFO o.a.j.r.Summariser: summary =     15 in 00:00:35 =    0.4/s Avg:   599 Min:   413 Max:  2543 Err:    14 (93.33%)
+2021-05-06 21:41:30,394 INFO o.a.j.r.Summariser: summary +     12 in 00:00:30 =    0.4/s Avg:   460 Min:   415 Max:   689 Err:    12 (100.00%) Active: 1 Started: 2 Finished: 1
+2021-05-06 21:41:30,395 INFO o.a.j.r.Summariser: summary =     27 in 00:01:05 =    0.4/s Avg:   537 Min:   413 Max:  2543 Err:    26 (96.30%)
+2021-05-06 21:41:41,403 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2021-05-06 21:41:41,405 INFO o.a.j.r.ResultCollector: Shutdown hook ended

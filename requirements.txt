@@ -1,2 +1,7 @@
 argparse
 pandas
+requests
+Crypto
+pycrypto
+pycryptodome
+rsa

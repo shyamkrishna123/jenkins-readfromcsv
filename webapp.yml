@@ -1,5 +1,6 @@
 # List of synthia apllications
 webapp:
+  - webapp-demo.chematica.net
   - webapp-tst3.chematica.net
   - webapp-tst2.chematica.net
   - webapp-tst6.chematica.net
