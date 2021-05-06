@@ -52,11 +52,14 @@ class EncryptPassword:
                 self.encrypted_password = self.encrypted_password.decode('UTF-8')
                 status = self.check_password()
                 if status:
-                  print(self.encrypted_password)
+                    print(self.encrypted_password)
+                    return(self.encrypted_password)
             else:
               print(self.password)
+              return(self.password)
         except:
             print(self.password)
+            return(self.password)
             
     
     
