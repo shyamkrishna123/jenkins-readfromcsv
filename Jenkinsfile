@@ -29,12 +29,7 @@ def publishResult(def webapp) {
     return "Success"
 }
 pipeline {
-    agent {
-        docker { image 'dfwpharb01.sial.com/synthia-devops/jmeter:v1'
-                 alwaysPull true
-                 registryUrl 'https://dfwpharb01.sial.com/'
-                 registryCredentialsId 'synthia-devops-harbor' }
-    }
+    agent any
     environment {
          WEBAPP_CRED = credentials('webapps')
     }
